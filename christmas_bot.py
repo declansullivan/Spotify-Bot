@@ -4,8 +4,8 @@ import webbrowser, spotipy, json, time, sys, os
 username = sys.argv[1]
 scopes = 'user-read-currently-playing user-modify-playback-state'
 
-# export SPOTIPY_CLIENT_ID='09268da821f04cf6b2375e2118ea29b4'
-# export SPOTIPY_CLIENT_SECRET='5701869a816c454ebfc89247441edba9'
+# export SPOTIPY_CLIENT_ID='shh, it's a secret'
+# export SPOTIPY_CLIENT_SECRET='sorry, these are only for me'
 # export SPOTIPY_REDIRECT_URI='http://google.com/'
 
 try:
