@@ -22,7 +22,6 @@ while True:
     current_song = spotify.current_user_playing_track()['item']
     current_name = current_song['name']
     if previous_song != current_song:
-        print(current_song['name'])
         previous_song = current_song
         current_album = spotify.album(current_song['album']['uri'])
         if 'christmas' in current_album['name'].lower():
